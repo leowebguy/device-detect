@@ -2,6 +2,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## 2.1 - 2024.11.22
+### mobiledetect/mobiledetectlib ^4.8
+
 ## 2.0.1 - 2023.03.24
 ### Cleanup, PHP 8.2
 

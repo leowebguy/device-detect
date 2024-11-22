@@ -10,6 +10,7 @@
 
 namespace leowebguy\devicedetect\variables;
 
+use Detection\Exception\MobileDetectException;
 use Detection\MobileDetect;
 
 class DetectVariable
@@ -32,6 +33,7 @@ class DetectVariable
 
     /**
      * @return bool
+     * @throws MobileDetectException
      */
     public function isMobile(): bool
     {
@@ -40,6 +42,7 @@ class DetectVariable
 
     /**
      * @return bool
+     * @throws MobileDetectException
      */
     public function isTablet(): bool
     {
@@ -56,6 +59,7 @@ class DetectVariable
 
     /**
      * @return bool
+     * @throws MobileDetectException
      */
     public function isPhone(): bool
     {
@@ -87,25 +91,6 @@ class DetectVariable
     public function isAndroidOS(): bool
     {
         return $this->deviceDetect->isAndroidOS();
-    }
-
-    // Bots/Crawlers
-    // =========================================================================
-
-    /**
-     * @return bool
-     */
-    public function isBot(): bool
-    {
-        return $this->deviceDetect->isBot();
-    }
-
-    /**
-     * @return bool
-     */
-    public function isMobileBot(): bool
-    {
-        return $this->deviceDetect->isMobileBot();
     }
 
     // Custom
