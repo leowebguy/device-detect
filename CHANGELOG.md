@@ -2,6 +2,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## 3.1 - 2024.11.22
+### + mobiledetectlib ^4.8
+
 ## 3.0.0 - 2024.03.26
 ### Craft 5, PHP 8.2
 

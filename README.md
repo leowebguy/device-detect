@@ -35,14 +35,6 @@ OS
 {{ craft.deviceDetect.isiOS }}
 {{ craft.deviceDetect.isiPadOS }}
 {{ craft.deviceDetect.isAndroidOS }}
-```
-
-Bots
-
-```twig
-{{ craft.deviceDetect.isBot }}
-{{ craft.deviceDetect.isMobileBot }}
-```
 
 User agent
 

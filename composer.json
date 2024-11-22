@@ -10,7 +10,7 @@
         "iphone",
         "browsers"
     ],
-    "version": "3.0.0",
+    "version": "3.1",
     "type": "craft-plugin",
     "license": "proprietary",
     "authors": [
@@ -24,7 +24,7 @@
     "require": {
         "php": "^8.2",
         "craftcms/cms": "^5.0",
-        "mobiledetect/mobiledetectlib": "^3.74.3"
+        "mobiledetect/mobiledetectlib": "^4.8"
     },
     "require-dev": {
         "craftcms/ecs": "dev-main",
